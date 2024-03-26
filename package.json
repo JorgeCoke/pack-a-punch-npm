@@ -1,6 +1,6 @@
 {
   "name": "pack-a-punch-npm",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Any project boilerplate tools template",
   "engines": {
     "node": ">=21.0.0",
@@ -22,7 +22,7 @@
     "format": "prettier --write 'src/**/*.{ts,js}'",
     "format:staged": "lint-staged",
     "npm:audit": "better-npm-audit audit",
-    "npm:check": "npm-check",
+    "npm:check": "npm-check -u",
     "release": "branch=$(git branch --show-current); if [[ $branch == 'master' || $branch == 'main' ]]; then commit-and-tag-version; else echo 'Releases allowed from main branch only'; exit 1; fi;",
     "cz": "cz",
     "devmoji": "devmoji -e --lint",
