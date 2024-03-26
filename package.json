@@ -21,10 +21,11 @@
     "lint": "eslint 'src/**/*.{ts,js}'",
     "format": "prettier --write 'src/**/*.{ts,js}'",
     "format:staged": "lint-staged",
-    "cz": "cz",
     "npm:audit": "better-npm-audit audit",
     "npm:check": "npm-check",
     "release": "branch=$(git branch --show-current); if [[ $branch == 'master' || $branch == 'main' ]]; then commit-and-tag-version; else echo 'Releases allowed from main branch only'; exit 1; fi;",
+    "cz": "cz",
+    "devmoji": "devmoji -e --lint",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -43,5 +44,8 @@
     "prettier": "^3.2.5",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "devmoji": "^2.3.0"
   }
 }
