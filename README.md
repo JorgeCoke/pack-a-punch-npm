@@ -63,7 +63,7 @@ npm run npm:check     # Check outdated dependencies
 npm install --save-dev @commitlint/cli @commitlint/config-conventional better-npm-audit commit-and-tag-version commitizen cz-conventional-changelog devmoji husky lint-staged npm-check
 ```
 
-> (Optional) Install **ESLint** and **Prettier** if you don't have them already: `npm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser`
+> (Optional) Install **ESLint** and **Prettier** if you don't have them already: `npm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-sonarjs`
 
 2. Copy the following scripts to your package.json file:
 

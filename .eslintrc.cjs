@@ -7,7 +7,8 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:sonarjs/recommended"
     ],
     "overrides": [
         {
@@ -28,7 +29,8 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "sonarjs"
     ],
     "rules": {
     }
