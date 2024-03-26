@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.1](https://github.com/JorgeCoke/any-project-template/compare/v1.2.0...v1.2.1) (2024-03-26)
+
+
+### Bug Fixes
+
+* 🐛 add devmoji as devDependency ([942a125](https://github.com/JorgeCoke/any-project-template/commit/942a125c42688abc04c342514a010f25aad06b84))
+
 ## 1.2.0 (2024-03-26)
 
 
