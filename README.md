@@ -13,7 +13,7 @@ Enhanced Zustand to query HTTP API Requests, including loading state and error h
 - [ESLint](https://www.npmjs.com/package/eslint) & [Prettier](https://www.npmjs.com/package/prettier)
 - Pre-Commit and Commit [Husky](https://github.com/typicode/husky) hooks
 - Commit nomenclature rules following [Conventional Commit Format](https://commitlint.js.org/) and [Commitizen CLI](https://github.com/commitizen/cz-cli) (🚀 emoji [powered](https://github.com/folke/devmoji))
-- Release management policy with [standard-version](https://github.com/conventional-changelog/standard-version), including automatic CHANGELOG.md generation and automatic version bumping and Git Tag creation
+- Release management policy with [standard-version](https://github.com/conventional-changelog/standard-version), including automatic CHANGELOG.md generation and automatic version bumping including Git Tag creation (Now migrated to [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version))
 - Easy customizable README.md
 - Included [npm-check](https://www.npmjs.com/package/npm-check) to check for outdated, incorrect, and unused dependencies.
 - Included [better-npm-audit](https://www.npmjs.com/package/better-npm-audit) to check for dependency vulnerabilities
@@ -42,7 +42,7 @@ npm run cz           # Commit with Commitizen CLI
 ## Release a new version TODO
 
 ```
-TODO            # TODO
+npm run release      # Bump version, generate CHANGELOG.md, and push GitTag automatically
 ```
 
 ## Check vulnerabilities and update outdated dependencies
