@@ -1,5 +1,5 @@
 {
-  "name": "any-project-template",
+  "name": "pack-a-punch-npm",
   "version": "1.2.1",
   "description": "Any project boilerplate tools template",
   "engines": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JorgeCoke/any-project-template.git"
+    "url": "git+https://github.com/JorgeCoke/pack-a-punch-npm.git"
   },
   "author": "JorgeCoke",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JorgeCoke/any-project-template/issues"
+    "url": "https://github.com/JorgeCoke/pack-a-punch-npm/issues"
   },
-  "homepage": "https://github.com/JorgeCoke/any-project-template#readme",
+  "homepage": "https://github.com/JorgeCoke/pack-a-punch-npm#readme",
   "scripts": {
     "dev": "tsx src/index.ts",
     "lint": "eslint 'src/**/*.{ts,js}'",

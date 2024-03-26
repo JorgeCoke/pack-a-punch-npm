@@ -1,10 +1,10 @@
 <p align="center">
-    <img alt="Zustand and Fetch logo" src="repo-logo.png" width="512"/>
+    <img alt="Pack a Punch logo" src="repo-logo.png" width="512"/>
 </p>
 
-# 🛠 Any Project Template Boilerplate
+# 🦾🔋 Pack a Punch: NPM Project Template Boilerplate
 
-Enhanced Zustand to query HTTP API Requests, including loading state and error handling with Zustand, without any extra data-fetching library
+Pack a punch your project, following standards and specifications, linting and formatting your code, automating Git work flows, and improving your styles with emojis 🦄
 
 ## Features
 
@@ -12,7 +12,7 @@ Enhanced Zustand to query HTTP API Requests, including loading state and error h
 - Customized VSCode configuration (See `.vscode` folder)
 - [ESLint](https://www.npmjs.com/package/eslint) & [Prettier](https://www.npmjs.com/package/prettier) as linter and formatter
 - Pre-Commit and Commit [Husky](https://github.com/typicode/husky) hooks (Runs linter and formatter before any commit against staged files only!)
-- Commit nomenclature rules following [Conventional Commit Format](https://commitlint.js.org/) and [Commitizen CLI](https://github.com/commitizen/cz-cli) (🔋 emoji [powered](https://github.com/folke/devmoji))
+- Commit nomenclature rules following [Conventional Commit Format](https://commitlint.js.org/) and [Commitizen CLI](https://github.com/commitizen/cz-cli) (emoji [powered](https://github.com/folke/devmoji))
 - Release management policy with [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version), including automagically CHANGELOG.md generation, version bumping and GitTags
 - Easy customizable README.md
 - Included [npm-check](https://www.npmjs.com/package/npm-check) to check for outdated, incorrect, and unused dependencies.
