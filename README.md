@@ -63,7 +63,7 @@ npm run npm:check     # Check outdated dependencies
 npm install --save-dev @commitlint/cli @commitlint/config-conventional better-npm-audit commit-and-tag-version commitizen cz-conventional-changelog devmoji husky lint-staged npm-check
 ```
 
-> (Optional) Install **ESLint** and **Prettier** if you don't have them already: `npm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-sonarjs`
+> (Optional) Install **ESLint** and **Prettier** if you don't have them already: `npm install --save-dev prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-sonarjs`
 
 2. Copy the following scripts to your package.json file:
 
@@ -83,4 +83,10 @@ npm install --save-dev @commitlint/cli @commitlint/config-conventional better-np
 cp -R {.husky,.commitlintrc.cjs,.czrc,.lintstagedrc.cjs} <YOUR_DESTINATION_FOLDER>
 ```
 
-> (Optional) Copy **ESLint**, **Prettier** and **VSCode** config files: `cp -R {.vscode,.eslintrc.cjs,.prettierrc.cjs}` <YOUR_DESTINATION_FOLDER>
+> (Optional) Copy **ESLint**, **Prettier** and **VSCode** config files: `cp -R {.vscode,.prettierrc.cjs,.eslintrc.cjs}` <YOUR_DESTINATION_FOLDER>
+
+4. Prepare husky tools running:
+
+```bash
+npm run prepare
+```
