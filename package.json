@@ -18,7 +18,9 @@
   "homepage": "https://github.com/JorgeCoke/pack-a-punch-npm#readme",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "lint": "eslint 'src/**/*.{ts,js}'",
+    "build": "npx rimraf dist && tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint 'src/**/*.{ts,js}' && tsc --noEmit",
     "format": "prettier --write 'src/**/*.{ts,js}'",
     "format:staged": "lint-staged",
     "npm:audit": "better-npm-audit audit",
@@ -44,6 +46,7 @@
     "lint-staged": "^15.2.2",
     "npm-check": "^6.0.1",
     "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   }
