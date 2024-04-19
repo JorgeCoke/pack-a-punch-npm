@@ -6,47 +6,44 @@
 
 Pack a punch your project, following standards and specifications, linting and formatting your code, automating Git work flows, and improving your styles with emojis 🦄
 
-## Features
+## ✨ Features
 
-- NPM package.json configured including meta parameters
-- Customized VSCode configuration (See `.vscode` folder)
-- [ESLint](https://www.npmjs.com/package/eslint) & [Prettier](https://www.npmjs.com/package/prettier) as linter and formatter
-- Pre-Commit and Commit [Husky](https://github.com/typicode/husky) hooks (Runs linter and formatter before any commit against staged files only!)
-- Commit nomenclature rules following [Conventional Commit Format](https://commitlint.js.org/) and [Commitizen CLI](https://github.com/commitizen/cz-cli) (emoji [powered](https://github.com/folke/devmoji))
-- Release management policy with [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version), including automagically CHANGELOG.md generation, version bumping and GitTags
-- Easy customizable README.md
-- Included [npm-check](https://www.npmjs.com/package/npm-check) to check for outdated, incorrect, and unused dependencies.
-- Included [better-npm-audit](https://www.npmjs.com/package/better-npm-audit) to check for dependency vulnerabilities
+- 🎨 [ESLint](https://www.npmjs.com/package/eslint) & [Prettier](https://www.npmjs.com/package/prettier) as linter and formatter
+- 🐶 Pre-Commit and Commit [Husky](https://github.com/typicode/husky) hooks (Runs linter and formatter before any commit against staged files only!)
+- 💄 Commit nomenclature rules following [Conventional Commit Format](https://commitlint.js.org/) and [Commitizen CLI](https://github.com/commitizen/cz-cli) (emoji [powered](https://github.com/folke/devmoji))
+- 🚀 Release management policy with [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version), including automagically CHANGELOG.md generation, version bumping and GitTags
+- 🔦 Included [npm-check](https://www.npmjs.com/package/npm-check) to check for outdated, incorrect, and unused dependencies.
+- 🥷🏻 Included [better-npm-audit](https://www.npmjs.com/package/better-npm-audit) to check for dependency vulnerabilities
 
-### Set up and run locally
+## 🛠 Getting Started
 
 ```
 npm ci               # Install dependencies
 npm run dev          # Launch project locally
 ```
 
-## Linter & Formatter
+## 🎨 Linter & Formatter
 
 ```
 npm run lint         # Run ESLint
 npm run format       # Run Prettier
 ```
 
-## Git Commit with Commitizen
+## ⛩ Git Commit with Commitizen
 
 ```
 git add .            # Add files
 npm run cz           # Commit with Commitizen CLI
 ```
 
-## Release a new version
+## 🚀 Release a new version
 
 ```
 npm run release             # Bump version and generate CHANGELOG.md
 git push --follow-tags      # Push changes and GitTag to origin
 ```
 
-## Check vulnerabilities and update outdated dependencies
+## 🔦 Check vulnerabilities and update outdated dependencies
 
 ```
 npm run npm:audit     # Check dependency vulnerabilities
