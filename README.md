@@ -50,6 +50,13 @@ npm run npm:audit     # Check dependency vulnerabilities
 npm run npm:check     # Check outdated dependencies
 ```
 
+## 🏗 Build and launch
+
+```
+npm run build         # Compile project
+npm run start         # Launch
+```
+
 ---
 
 #### How to migrate this configuration to an existing project
