@@ -25,12 +25,18 @@
 			},
 			"a11y": {
 				"useKeyWithClickEvents": "off"
+			},
+			"complexity": {
+				"noForEach": "off"
 			}
 		}
 	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "double"
+		},
+		"parser": {
+			"unsafeParameterDecoratorsEnabled": true
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name": "pack-a-punch-npm",
-	"version": "1.2.2",
+	"version": "1.3.0",
 	"description": "Any project boilerplate tools template",
 	"engines": {
 		"node": ">=21.0.0",
@@ -20,7 +20,7 @@
 		"dev": "tsx src/index.ts",
 		"build": "npm run biome && rimraf dist && tsc",
 		"start": "node dist/index.js",
-		"biome": "biome check --write src",
+		"biome": "biome check --write {src,test}",
 		"release": "branch=$(git branch --show-current); if [[ $branch == 'master' || $branch == 'main' ]]; then commit-and-tag-version; else echo 'Releases allowed from main branch only'; exit 1; fi;",
 		"package": "tar -czf package.tar.gz dist node_modules package.json package-lock.json",
 		"cz": "cz",
@@ -55,7 +55,7 @@
 		"extends": ["@commitlint/config-conventional"]
 	},
 	"lint-staged": {
-		"src/**/*": [
+		"{src,test}/**/*": [
 			"biome check --no-errors-on-unmatched --files-ignore-unknown=true"
 		]
 	}
