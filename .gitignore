@@ -11,7 +11,7 @@ yarn-error.log*
 # build
 dist
 build
-*.artifact.tar.gz
+package.tar.gz
 
 # dependencies
 node_modules
